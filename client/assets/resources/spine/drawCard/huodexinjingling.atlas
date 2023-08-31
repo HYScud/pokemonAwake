@@ -1,0 +1,62 @@
+
+huodexinjingling.png
+size: 1645,123
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TX/zdsl_gy2
+  rotate: false
+  xy: 2, 17
+  size: 1068, 104
+  orig: 1106, 219
+  offset: 18, 108
+  index: -1
+de
+  rotate: false
+  xy: 1459, 3
+  size: 91, 91
+  orig: 94, 94
+  offset: 2, 1
+  index: -1
+de2
+  rotate: true
+  xy: 1169, 28
+  size: 93, 94
+  orig: 96, 97
+  offset: 2, 1
+  index: -1
+guang2
+  rotate: false
+  xy: 1265, 96
+  size: 354, 25
+  orig: 354, 34
+  offset: 0, 3
+  index: -1
+huo
+  rotate: false
+  xy: 1072, 28
+  size: 95, 93
+  orig: 99, 97
+  offset: 2, 2
+  index: -1
+jing
+  rotate: false
+  xy: 1363, 2
+  size: 94, 92
+  orig: 98, 96
+  offset: 2, 2
+  index: -1
+ling
+  rotate: false
+  xy: 1552, 3
+  size: 91, 91
+  orig: 95, 94
+  offset: 2, 2
+  index: -1
+xin
+  rotate: false
+  xy: 1265, 2
+  size: 96, 92
+  orig: 100, 96
+  offset: 2, 2
+  index: -1

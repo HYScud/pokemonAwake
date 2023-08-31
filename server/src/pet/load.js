@@ -1,0 +1,1 @@
+module.exports = {1:require("./Pet1"),2:require("./Pet2"),3:require("./Pet3"),4:require("./Pet4"),5:require("./Pet5"),6:require("./Pet6"),7:require("./Pet7"),8:require("./Pet8"),9:require("./Pet9"),}

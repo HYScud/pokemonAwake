@@ -1,0 +1,537 @@
+ let TABLE = {
+
+        fontpng:{
+            path:"font",
+            type:cc.SpriteFrame,
+            list:["digital_bj","digital_boss","digital_craft","digital_cross_arena_rank","digital_cross_craft","digital_frhd","digital_frhd_num","digital_kz","digital_lv_big","digital_nqjl","digital_online_fight_ban","digital_online_fight_battle_cutdown","digital_ptsh","digital_pvp","digital_zlsz","digital_zsh","digital_zzl","number_zcm","txt_lq"],
+        },
+        
+        fontttf:{
+            path:"font",
+            type:--ttf--,
+            list:["youmi","youmi1"],
+        },
+        
+        petBagjpg:{
+            path:"petBag",
+            type:cc.SpriteFrame,
+            list:["box_bottom_d"],
+        },
+        
+        petBagpng:{
+            path:"petBag",
+            type:cc.SpriteFrame,
+            list:["box_bottom_d","box_bottom_d0","box_bottom_d1","icon_dian1","icon_fj","icon_fj1","icon_jl","icon_jl1","icon_sp","icon_sp1","panel_card_01","tag_sp"],
+        },
+        
+        soundmp3:{
+            path:"sound",
+            type:--mp3--,
+            list:["click_1","click_2","equip","evolution","formation","gem_diamond_10","gem_draw_1","gem_gold_10","levelUp","role_levelup","skill2_effect","square","star","zaixianlibao"],
+        },
+        
+        spineatlas:{
+            path:"spine",
+            type:--atlas--,
+            list:["xiaozhi"],
+        },
+        
+        spinejson:{
+            path:"spine",
+            type:cc.JsonAsset,
+            list:["xiaozhi"],
+        },
+        
+        spinepng:{
+            path:"spine",
+            type:cc.SpriteFrame,
+            list:["xiaozhi"],
+        },
+        
+        activityIconpng:{
+            path:"activity/icon",
+            type:cc.SpriteFrame,
+            list:["btn_icon_rk","icon_activity_xszh","icon_cjhb","icon_czfz","icon_fl@","icon_hydb","icon_jltz","icon_kfjnh","icon_qrdl","icon_s11","icon_sc@","icon_sj","icon_sqqtl","icon_thlb","icon_tqlb","icon_txz","icon_xcsl","icon_xljcj","icon_xnjfd","icon_xqdbs","icon_xsfl","icon_xsss","icon_xylft","icon_xrj","icon_xytb","icon_zcm@","icon_yyqf","icon_zc_mtgl","icon_zc_xdfs","icon_zlph","icon_znjnh","icon_zzfj","icon_zzfz"],
+        },
+        
+        battleAnimatlas:{
+            path:"battle/anim",
+            type:--atlas--,
+            list:["death"],
+        },
+        
+        battleAnimjson:{
+            path:"battle/anim",
+            type:cc.JsonAsset,
+            list:["death"],
+        },
+        
+        battleAnimpng:{
+            path:"battle/anim",
+            type:cc.SpriteFrame,
+            list:["death"],
+        },
+        
+        battleCdPNG:{
+            path:"battle/cd",
+            type:--PNG--,
+            list:["txt_lq_0","txt_lq_1","txt_lq_2","txt_lq_3","txt_lq_4","txt_lq_5","txt_lq_6","txt_lq_7","txt_lq_8","txt_lq_9"],
+        },
+        
+        battleBgjpg:{
+            path:"battle/bg",
+            type:cc.SpriteFrame,
+            list:["bg_aml","bg_beach","bg_bkgd","bg_city","bg_dg","bg_ghz","bg_golden","bg_grass","bg_green","bg_hg","bg_ice","bg_jjc","bg_lightred","bg_nbcity","bg_night","bg_qf","bg_red","bg_river","bg_s","bg_sd","bg_sg","bg_sg2","bg_shm","bg_sl","bg_sm","bg_sss","bg_sydh","bg_tower","bg_ty","bg_xcdg","bg_xszd","bg_xxdg","bg_ystz","bg_ytly","bg_zl","bg_zz"],
+        },
+        
+        battleBgpng:{
+            path:"battle/bg",
+            type:cc.SpriteFrame,
+            list:["bg_djd","bg_dzjjc","bg_kfghz","bg_kfjjc","bg_kfzyz","bg_summer","bg_worldboss","bg_wsj","bg_xdsdj","bg_znq"],
+        },
+        
+        battleBgpvr:{
+            path:"battle/bg",
+            type:--pvr--,
+            list:["bg_worldboss"],
+        },
+        
+        battleEndpng:{
+            path:"battle/end",
+            type:cc.SpriteFrame,
+            list:["img_bg","img_jifen_bg"],
+        },
+        
+        battleIconpng:{
+            path:"battle/icon",
+            type:cc.SpriteFrame,
+            list:["bar_enemy_blood","bar_enemy_cover","bar_enemy_white","bar_energy_yellow","bar_hero_blood","bar_hero_delay","bar_shield_blue","box_dk","box_elves_gray","box_elves_green","box_pxd","box_elves_red","box_screen","box_selected","btn_1","btn_dzgb","btn_dzkq","btn_skill","btn_skill_1","btn_skill_selected","icon_ck@","icon_jlqh@","icon_sl","icon_t","icon_w","icon_z","icon_zt"],
+        },
+        
+        battlePausepng:{
+            path:"battle/pause",
+            type:cc.SpriteFrame,
+            list:["box_icondb","icon_ck","icon_fk","icon_jx","icon_sz","icon_tc","img_bg","logo_suspend"],
+        },
+        
+        battleImgjpg:{
+            path:"battle/img",
+            type:cc.SpriteFrame,
+            list:["dazhaodi","dazhaodi_2"],
+        },
+        
+        battleImgpng:{
+            path:"battle/img",
+            type:cc.SpriteFrame,
+            list:["img_gx","img_pc","img_select","logo_enemy_level","logo_enemy_level2","logo_hero_level","logo_hero_level2","panle_group","title_top_1"],
+        },
+        
+        battlePrefabprefab:{
+            path:"battle/prefab",
+            type:cc.Prefab,
+            list:["battleTip","enemyOrder","hurtLabel","playerOrder","skill1"],
+        },
+        
+        commonBarpng:{
+            path:"common/bar",
+            type:cc.SpriteFrame,
+            list:["bar_1","bar_1_d","bar_dt","bar_dt1","bar_red","bar_red_d","bar_red_d1","box_blue","box_selected","box_xtd","box_xt_l","btn_zdsc_hl2"],
+        },
+        
+        commonBgpng:{
+            path:"common/bg",
+            type:cc.SpriteFrame,
+            list:["bg_2ndconfirm","bg_2ndconfirm1","bg_404@","bg_cs","bg_d","bg_deblocking","bg_dialog","bg_dialog1","bg_elf@","bg_icon@","bg_paging","bg_tzjc","img_bg1","img_bg2","img_evolution3","img_pvp_top3"],
+        },
+        
+        commonBgjpg:{
+            path:"common/bg",
+            type:cc.SpriteFrame,
+            list:["bg_d","bg_img","bg_recharge@","img_bg","img_bg3","img_bg4"],
+        },
+        
+        commonCardpng:{
+            path:"common/card",
+            type:cc.SpriteFrame,
+            list:["bg_0","bg_1","bg_2","bg_3","bg_4","bg_5","bg_6","box_bottom_d0","box_bottom_d1","box_bottom_d2","box_bottom_d3","box_bottom_d4","box_bottom_d5","box_bottom_d6","frame_1","frame_0","frame_2","frame_3","frame_4","frame_5","frame_6"],
+        },
+        
+        commonFramepng:{
+            path:"common/frame",
+            type:cc.SpriteFrame,
+            list:["panel_0","panel_1","panel_2","panel_3","panel_4","panel_5","panel_6","panel_default","panel_f0","panel_f1","panel_f2","panel_f3","panel_f4","panel_f5","panel_f6"],
+        },
+        
+        commonBtnpng:{
+            path:"common/btn",
+            type:cc.SpriteFrame,
+            list:["btn_add","btn_add10","btn_add_icon","btn_all","btn_allselect","btn_arrow","btn_arrow_recharge","btn_arrow_red","btn_arrow_red1","btn_arrow_red2","btn_arrow_white","btn_awaken","btn_back","btn_banlock","btn_bs","btn_cancel","btn_cancel_big","btn_change","btn_change2","btn_character","btn_ckxq","btn_cl","btn_close","btn_close2","btn_cz","btn_d","btn_details","btn_dh","btn_fanye","btn_filtrate","btn_ghtb","btn_hd_close","btn_hd_close1","btn_hd_close2","btn_inner_close","btn_jh","btn_jh1","btn_kfsyj","btn_ks","btn_leave","btn_lock","btn_lock1","btn_lock_big","btn_max","btn_modify","btn_no","btn_nomal_1","btn_nomal_2","btn_nomal_3","btn_nomal_4red","btn_nomal_4white","btn_normal","btn_normal@","btn_normal_red","btn_out_close","btn_recharge","btn_reset","btn_selected@","btn_sub","btn_sub10","btn_s","btn_sz","btn_unlock_big","btn_xg","btn_yes","exchange","icon_s1","img_ckxq","img_ljqw","sign_ylq","tab_normal","tab_normal_1","tab_normal_2","tab_selected","tab_selected_1","tab_selected_2","tab_selected_fwq","tag_ash","tag_blue","tag_digital1","tag_digital2","tag_fragment","tag_orange"],
+        },
+        
+        commonBoxpng:{
+            path:"common/box",
+            type:cc.SpriteFrame,
+            list:["box_0","box_404","box_ad","box_ad4","box_carry","box_cd","box_character1","box_character2","box_charselected","box_charselected2","box_d","box_d3","box_d4","box_dhk","box_dhk1","box_djd","box_djd_white","box_dk","box_dt_c","box_fgx","box_gg","box_h","box_hd","box_hdtx","box_head_d","box_import","box_information_red","box_input","box_jb_01","box_l","box_ld","box_mask1","box_mask2","box_jb_00","box_mzd_h","box_mzd_l","box_name","box_named","box_nameinput","box_output","box_panel","box_panel1","box_panel_1","box_panel_2","box_panel_fwq","box_panel_scdl","box_panel_wddw","box_pop_bg","box_pop_panel","box_pop_panel1","box_pop_panel3","box_pop_panel2","box_pop_panel4","box_pop_panel5","box_pop_panel6","box_portrait","box_portrait_select","box_radio_selected","box_screen","box_searsh","box_select","box_selected","box_selected1","box_sjd","box_snk","box_t","box_t1","box_tip","box_top","box_topui","box_union_selected","box_wbk","box_wzd","box_xsk","box_xzfwq","logo_sl","mask_d","mask_fangd","mask_mhzz","mask_panel_exercise","mask_portrait","mask_skill","mask_tab","panel_icon","panel_mask40","panel_portrait_d","panel_zs","panel__activity_d","slider_d","tab_selected_3","tag_blue","tag_orange","tag_purple","tag__jb_00","tag__jb_01"],
+        },
+        
+        commonIconpng:{
+            path:"common/icon",
+            type:cc.SpriteFrame,
+            list:["icon_diamond","icon_gold","icon_stamina"],
+        },
+        
+        commonImgpng:{
+            path:"common/img",
+            type:cc.SpriteFrame,
+            list:["btn_out_close","title_pop"],
+        },
+        
+        commonStagepng:{
+            path:"common/stage",
+            type:cc.SpriteFrame,
+            list:["tag_digital1","tag_digital2","tag_digital3","tag_digital4","tag_digital5","tag_digital6","tag_digital7"],
+        },
+        
+        drawCardBgjpg:{
+            path:"drawCard/bg",
+            type:cc.SpriteFrame,
+            list:["img_bg_zxck","img_ck","img_ck_jb","img_xdck","img_xsck"],
+        },
+        
+        drawCardDrawchoosepng:{
+            path:"drawCard/drawchoose",
+            type:cc.SpriteFrame,
+            list:["box_jb_00","box_jb_01","box_zxck_1","box_zxck_2","box_zxck_3","box_zxck_4","btn_sxqh","txt_sxqh","txt_zxck","txt_zxck2"],
+        },
+        
+        drawCardDrawpng:{
+            path:"drawCard/draw",
+            type:cc.SpriteFrame,
+            list:["bar_d","bar_highlight","box_bottom_d0","box_ckd","box_sjd","box_topui2","box_wdd","box_ydd","box_zjf","btn_c10c","btn_c1c","btn_ck","btn_ckyq","btn_xz","btn_xzck","icon_hxc","icon_hxc1","icon_jbc","icon_jbc1","icon_jfbx","icon_jfbx1","icon_jfbx2","icon_jfbx3","icon_jfbx3_dk","icon_jfbx_dk","icon_jlyl","icon_spc","icon_spc1","icon_xdq","icon_zsc","icon_zsc1","logo_d","txt_ck","txt_ck1","txt_dw","txt_jbck","txt_jbck1","txt_jlyl","txt_sd","txt_spck","txt_spck1","txt_up","txt_xdck","txt_xdck1","txt_xsss","txt_xsss1","txt_zsck","txt_zsck1","txt_zxck","txt_zxck1"],
+        },
+        
+        drawCardGainshowpng:{
+            path:"drawCard/gainshow",
+            type:cc.SpriteFrame,
+            list:["bg_dt","box_bd"],
+        },
+        
+        drawCardPerviewpng:{
+            path:"drawCard/perview",
+            type:cc.SpriteFrame,
+            list:["logo_fjx","txt_jlyl"],
+        },
+        
+        drawCardPrefabprefab:{
+            path:"drawCard/prefab",
+            type:cc.Prefab,
+            list:["ItemBox","PetBox","rewardLayer"],
+        },
+        
+        formationImgpng:{
+            path:"formation/img",
+            type:cc.SpriteFrame,
+            list:["bar_hui","box_xzk","btn_arrow","btn_back","btn_bd","btn_normal","btn_qcbd","icon_zl","img_base_bottom","img_base_drag","logo_qz","mask_card"],
+        },
+        
+        formationImgjpg:{
+            path:"formation/img",
+            type:cc.SpriteFrame,
+            list:["bg_img"],
+        },
+        
+        itemIconpng:{
+            path:"item/icon",
+            type:cc.SpriteFrame,
+            list:["1","2","3","icon_fire_green","icon_grass_green","icon_walter_green","jy_1","jy_2","jy_3","jy_4"],
+        },
+        
+        itemPrefab:{
+            path:"item/prefab",
+            type:cc.Prefab,
+            list:["item"],
+        },
+        
+        loadingPrefab:{
+            path:"loading/prefab",
+            type:cc.Prefab,
+            list:["loading"],
+        },
+        
+        loadingImg:{
+            path:"loading/img",
+            type:cc.SpriteFrame,
+            list:["game_notify"],
+        },
+        
+        loadingSpineatlas:{
+            path:"loading/spine",
+            type:--atlas--,
+            list:["loading_pikaqiu"],
+        },
+        
+        loadingSpinejson:{
+            path:"loading/spine",
+            type:cc.JsonAsset,
+            list:["loading_pikaqiu"],
+        },
+        
+        loadingSpinepng:{
+            path:"loading/spine",
+            type:cc.SpriteFrame,
+            list:["loading_pikaqiu"],
+        },
+        
+        loginImgpng:{
+            path:"login/img",
+            type:cc.SpriteFrame,
+            list:["box_panel_1","box_panel_fwq","box_selserver","box_tagline","box_xzfwq","btn_notice","btn_signin","icon_cadpa","icon_logo","icon_notice","img_penel_server","img_penel_server1","logo_gray","logo_green","logo_red","tag_hot_server","tag_maintain_server","tag_new_server"],
+        },
+        
+        loginLoginBg:{
+            path:"login/loginBg",
+            type:cc.SpriteFrame,
+            list:["qq_bg"],
+        },
+        
+        loadingLoadBgpng:{
+            path:"loading/loadBg",
+            type:cc.SpriteFrame,
+            list:["bg_1","bg_10","bg_11","bg_12","bg_13","bg_14","bg_15","bg_16","bg_17","bg_18","bg_19","bg_2","bg_20","bg_21","bg_22","bg_23","bg_24","bg_25","bg_3","bg_4","bg_5","bg_6","bg_7","bg_8","bg_9"],
+        },
+        
+        loginNewRolejpg:{
+            path:"login/newRole",
+            type:cc.SpriteFrame,
+            list:["bg","bg1","bg2"],
+        },
+        
+        loginNewRolepng:{
+            path:"login/newRole",
+            type:cc.SpriteFrame,
+            list:["box_hd","box_name","icon_circle","icon_fire","icon_hand","icon_shaizi","ico_grass","ico_water","img_tjltm@","panel_name","panel_zhanwei","panel_zhanwei1","panel_zhanwei2","panel_zhanwei_select"],
+        },
+        
+        loginPrefabprefab:{
+            path:"login/prefab",
+            type:cc.Prefab,
+            list:["loginLayer","panelLogin"],
+        },
+        
+        mainIconpng:{
+            path:"main/icon",
+            type:cc.SpriteFrame,
+            list:["bar_red","box_tyd","box_xit","btn_sn","icon_bb@","icon_bd@","icon_chp@","icon_cj@","icon_gh@","icon_jiantou","icon_jj@","icon_jl@","icon_jy","icon_mx@","icon_mxsdm@","icon_mxzz","icon_nd@","icon_ph@","icon_qd","icon_rw","icon_sd","icon_tj@","icon_tqlb@","icon_txq","icon_xinxi","icon_xsrw","icon_xt","icon_yc@","icon_youjian","logo_d1","panel_icon","panel_icon1","panel_icon2","panel_role"],
+        },
+        
+        mainBgatlas:{
+            path:"main/bg",
+            type:--atlas--,
+            list:["badadie","che","day","guoshanche","pangding","nuannuanzhu","wsj2_genggui","wsjzh","xiaodao","xiaozhi","yezi","yezi2","zjm_dds","zuofang"],
+        },
+        
+        mainBgjson:{
+            path:"main/bg",
+            type:cc.JsonAsset,
+            list:["badadie","che","day","guoshanche","nuannuanzhu","pangding","wsj2_genggui","wsjzh","xiaodao","xiaozhi","yezi","yezi2","zjm_dds","zuofang"],
+        },
+        
+        mainBgpng:{
+            path:"main/bg",
+            type:cc.SpriteFrame,
+            list:["badadie","che","day","day2","day3","guoshanche","nuannuanzhu","pangding","ta1","ta2","tong","wsj2_genggui","wsjzh","xiangpian","xiaodao","xiaozhi","yezi","yezi2","zjm_dds","zuofang"],
+        },
+        
+        mapCloudpng:{
+            path:"map/cloud",
+            type:cc.SpriteFrame,
+            list:["bg_cj1","bg_cj1_1","bg_cj1_2","bg_cj2","img_cloud1_em","img_cloud1_jq","img_cloud1_kn","img_cloud2_em","img_cloud2_jq","img_cloud2_kn","img_cloud3_em","img_cloud3_jq","img_cloud3_kn","img_cloud4_em","img_cloud4_jq","img_cloud4_kn","img_cloud5_em","img_cloud5_jq","img_cloud5_kn","img_cloud6_em","img_cloud6_jq","img_cloud6_kn"],
+        },
+        
+        mapBgpng:{
+            path:"map/bg",
+            type:cc.SpriteFrame,
+            list:["img_akld","img_alldqxx","img_ays","img_bnd","img_by","img_djd","img_dzktq","img_fqcs","img_gbxs","img_jt","img_kys","img_llajdhz","img_mlmld","img_mxt","img_smbl","img_spcj","img_syjxx","img_xbxz","img_xxs","img_yly","img_yzs","img_zxz"],
+        },
+        
+        mapIconpng:{
+            path:"map/icon",
+            type:cc.SpriteFrame,
+            list:["bg_dialog","bg_lock","boss","box_barrier_selected","box_di","box_dk","btn_em@","btn_jq@","btn_kn@","btn_sz","icon_box","icon_collection","icon_collection1","icon_collection_grey","icon_collection_grey1","icon_kssd","icon_node@","icon_node_big_boss","icon_node_boss","icon_node_red","icon_node_white","icon_node_xiaoguai","icon_sx","img_panel_zongzi","img_panel_zongzi1","img_sun_em","kunnanzhezhao","logo_ewcs","logo_path","logo_yhd","putong"],
+        },
+        
+        personalIconpng:{
+            path:"personal/icon",
+            type:cc.SpriteFrame,
+            list:["btn_change","btn_overflow","icon_collection","icon_unlockrate","img_elfnormal","tag__jb_01","txt_jhcg","txt_kjs"],
+        },
+        
+        petIconpng:{
+            path:"pet/icon",
+            type:cc.SpriteFrame,
+            list:["btn_oneclickup","btn_upgrade","icon_attack","icon_defense","icon_life","icon_sg","icon_spattack","icon_spdefense","icon_speed"],
+        },
+        
+        personalAvatarpng:{
+            path:"personal/avatar",
+            type:cc.SpriteFrame,
+            list:["1","2","icon_2021sdtx","icon_2021ydtx","icon_2021year@","icon_21gq_tx","icon_21wsj_tx","icon_ddzq","icon_dwj2_tx","icon_mwzz_tx","icon_pkqgq","icon_qrj_tx","icon_sd_bjm","icon_sd_gs","icon_sd_jng","icon_sd_mm","icon_sd_mmx","icon_sd_mwzz","icon_sd_pkq","icon_sd_xhl","icon_sd_yb","icon_sd_yjl","icon_sd_zyy","icon_wsj","icon_wy_tx","icon_zqj_tx","img_am@","img_as@","img_dds","img_dng","img_ly","img_lyetj","img_mx@","img_pkq","img_pkq_znq","img_ql@","img_role_10@","img_role_11@","img_role_12@","img_role_13@","img_role_14@","img_role_15@","img_role_16@","img_role_17@","img_role_18@","img_role_19@","img_role_20@","img_role_21@","img_role_22@","img_role_23@","img_role_24@","img_role_26@","img_role_25@","img_role_27@","img_role_28@","img_role_29@","img_role_31@","img_role_32@","img_role_33@","img_role_34@","img_role_35@","img_role_36@","img_role_37@","img_role_38@","img_role_39@","img_role_3@","img_role_40@","img_role_41@","img_role_42@","img_role_43@","img_role_4@","img_role_5@","img_role_6@","img_role_7@","img_role_8@","img_role_9@","img_sy@","img_wy","img_xb@","img_xk@","img_xrj1@","img_xrj2@","img_xs@"],
+        },
+        
+        petQualityIconpng:{
+            path:"pet/qualityIcon",
+            type:cc.SpriteFrame,
+            list:["2","3","4","5","6","7"],
+        },
+        
+        petPrefabprefab:{
+            path:"pet/prefab",
+            type:cc.Prefab,
+            list:["attr","pet","petBattle","petBox","petCard"],
+        },
+        
+        soundBattlemp3:{
+            path:"sound/battle",
+            type:--mp3--,
+            list:["battle1","battle1_pre","battle2","battle2_pre","battle3","battle3_pre","battle4","battle4_pre","battle5","battle_bgm","battle_cheer","battle_false","battle_pvp_loop","battle_pvp_pre","gate_win","pve_win","pvp_win"],
+        },
+        
+        soundDrawCradmp3:{
+            path:"sound/drawCrad",
+            type:--mp3--,
+            list:["card_gain","drawcard_one","drawcard_one2","drawcard_ten","drawcard_ten2"],
+        },
+        
+        soundLogin:{
+            path:"sound/login",
+            type:--mp3--,
+            list:["default"],
+        },
+        
+        soundMainmp3:{
+            path:"sound/main",
+            type:--mp3--,
+            list:["city","city2","city3"],
+        },
+        
+        soundPopupmp3:{
+            path:"sound/popup",
+            type:--mp3--,
+            list:["popupClose","popupOpen","show"],
+        },
+        
+        soundPetmp3:{
+            path:"sound/pet",
+            type:--mp3--,
+            list:["banjilasi_attack","banjilasi_skill1","banjilasi_skill2","bobo_attack","bobo_skill1","bobo_skill2","chaomeng_attack","chaomeng_skill1","chaomeng_skill2","dakelaiyi_attack","dakelaiyi_skill1","dudu_attack","dudu_skill1","dudu_skill2","dakelaiyi_skill2","fengsugou_atk","fengsugou_sk1","fengsugou_sk2","gaiouka_attack","gaiouka_skill1","gaiouka_skill2","houguai_attack","houguai_skill1","houguai_skill2","jiaherenwa_attack","jiaherenwa_skill1","jiaherenwa_skill2","jiekeluomu_atk","jiekeluomu_skill1","jiekeluomu_skill2","kalakala_attack","kalakala_skill1","kalakala_skill2","labaya_attack","labaya_skill1","labaya_skill2","laixilamu_atk","laixilamu_skill1","laixilamu_skill2","leijiaisi_attack","leijiaisi_skill1","leijiaisi_skill2","leijiluoke_attack","leijiluoke_skill1","leijiluoke_skill2","liekongzuo_attack","liekongzuo_skill1","liekongzuo_skill2","menghuan_attack","menghuan_skill1","menghuan_skill2","miaowazhongzi_attack","miaowazhongzi_skill1","miaowazhongzi_skill2","niduolang_attack","niduolang_skill1","niduolang_skill2","niduolan_attack","niduolan_skill1","niduolan_skill2","penhuolongX_attack","penhuolongX_skill1","penhuolongX_skill2","pikaqiu_attack","pikaqiu_skill1","pikaqiu_skill2","qiuleimu_atk","qiuleimu_skill1","qiuleimu_skill2","wanli_attack","wanli_skill1","wanli_skill2","xiaohuolong_attack","xiaohuolong_skill1","xiaohuolong_skill2","xiaolada_attack","xiaolada_skill1","xiaolada_skill2","xiaomuling_attack","xiaomuling_skill1","xiaomuling_skill2","zoulucao_attack","zoulucao_skill1","zoulucao_skill2"],
+        },
+        
+        spineBattleatlas:{
+            path:"spine/battle",
+            type:--atlas--,
+            list:["jiesuanshengli"],
+        },
+        
+        spineBattlejson:{
+            path:"spine/battle",
+            type:cc.JsonAsset,
+            list:["jiesuanshengli"],
+        },
+        
+        spineBattlepng:{
+            path:"spine/battle",
+            type:cc.SpriteFrame,
+            list:["jiesuanshengli"],
+        },
+        
+        spineDrawCardatlas:{
+            path:"spine/drawCard",
+            type:--atlas--,
+            list:["chouka","huodexinjingling","huodexinjinglingbg","jingbichouka","xianshichouka","zuanshichouka"],
+        },
+        
+        spineDrawCardjson:{
+            path:"spine/drawCard",
+            type:cc.JsonAsset,
+            list:["chouka","huodexinjingling","huodexinjinglingbg","jingbichouka","xianshichouka","zuanshichouka"],
+        },
+        
+        spineDrawCardpng:{
+            path:"spine/drawCard",
+            type:cc.SpriteFrame,
+            list:["chouka","huodexinjingling","huodexinjinglingbg","jingbichouka","xianshichouka","zuanshichouka"],
+        },
+        
+        spinePetatlas:{
+            path:"spine/pet",
+            type:--atlas--,
+            list:["banjilasi","bobo","chaomeng","dakelaiyi","dudu","fengsugou","fengwang","gaiouka","houguai","huashiyilong","huoyanniao","jiaherenwa","jiaojinyu","jiekeluomu","jielaaola","jienigui","kalakala","labaya","laixilamu","leijiluoke","liekongzuo","lvmaochong","menghuan","miaowazhongzi","niduolan","penhuolongX","pikaqui","qiuleimu","Sguladuo","shuijiangui","wanli","xiaohuolong","xiaolada","xiaomuling","xiaoquanshi","zheerniyasi","zoulucao"],
+        },
+        
+        spinePetjson:{
+            path:"spine/pet",
+            type:cc.JsonAsset,
+            list:["banjilasi","bobo","chaomeng","dakelaiyi","dudu","fengsugou","fengwang","gaiouka","houguai","huashiyilong","huoyanniao","jiaherenwa","jiaojinyu","jiekeluomu","jielaaola","kalakala","jienigui","labaya","laixilamu","leijiluoke","liekongzuo","lvmaochong","menghuan","miaowazhongzi","niduolan","penhuolongX","pikaqui","qiuleimu","Sguladuo","shuijiangui","wanli","xiaohuolong","xiaolada","xiaoquanshi","xiaomuling","zheerniyasi","zoulucao"],
+        },
+        
+        spinePetpng:{
+            path:"spine/pet",
+            type:cc.SpriteFrame,
+            list:["banjilasi","bobo","chaomeng","dakelaiyi","dudu","fengsugou","fengwang","gaiouka","houguai","huashiyilong","huoyanniao","jiaherenwa","jiaojinyu","jiekeluomu","jielaaola","jienigui","kalakala","labaya","laixilamu","leijiluoke","liekongzuo","lvmaochong","menghuan","miaowazhongzi","niduolan","penhuolongX","pikaqui","qiuleimu","Sguladuo","shuijiangui","wanli","xiaohuolong","xiaolada","xiaomuling","xiaoquanshi","zheerniyasi","zoulucao"],
+        },
+        
+        starPrefab:{
+            path:"star/prefab",
+            type:cc.Prefab,
+            list:["star"],
+        },
+        
+        starImgpng:{
+            path:"star/img",
+            type:cc.SpriteFrame,
+            list:["icon_rank_star","icon_star","icon_rank_star_d","icon_star2","icon_star2_d","icon_star_d","icon_star_z","icon_star_z1"],
+        },
+        
+        tipPrefab:{
+            path:"tip/prefab",
+            type:cc.Prefab,
+            list:["tip"],
+        },
+        
+        petIconAttributepng:{
+            path:"pet/icon/attribute",
+            type:cc.SpriteFrame,
+            list:["0","1","10","11","12","13","14","15","16","17","2","3","4","5","6","7","8","9"],
+        },
+        
+        petIconSkillpng:{
+            path:"pet/icon/skill",
+            type:cc.SpriteFrame,
+            list:["0","1","10","11","12","13","14","15","16","17","2","3","4","5","6","7","8","9","icon_t","icon_w","icon_z"],
+        },
+        
+        petPetIconPetBagpng:{
+            path:"pet/petIcon/petBag",
+            type:cc.SpriteFrame,
+            list:["banjilasi","bobo","chaomeng","dakelaiyi","dudu","fengsugou","gaiouka","houguai","huoyanniao","jiaherenwa","jiaojinyu","jiekeluomu","jielaaola","jienigui","kalakala","labaya","laixilamu","leijiaisi","leijiluoke","liekongzuo","lvmaochong","menghuan","miaowazhongzi","niduolan","penhuolongX","pikaqui","pikaqui2","qiuleimu","Sguladuo","shuijiangui","Sliekongzuo","wanli","xiaohuolong","xiaolada","xiaomuling","xiaoquanshi","zheerniyasi","zoulucao"],
+        },
+        
+        petPetIconPetBoxpng:{
+            path:"pet/petIcon/petBox",
+            type:cc.SpriteFrame,
+            list:["banjilasi","bobo","chaomeng","dakelaiyi","dudu","fengsugou","gaiouka","houguai","huoyanniao","jiaherenwa","jiaojinyu","jiekeluomu","jielaaola","jienigui","kalakala","labaya","laixilamu","leijiaisi","leijiluoke","liekongzuo","lvmaochong","menghuan","miaowazhongzi","niduolan","penhuolongX","pikaqui","pikaqui2","qiuleimu","Sguladuo","shuijiangui","Sliekongzuo","wanli","xiaohuolong","xiaolada","xiaomuling","xiaoquanshi","zheerniyasi","zoulucao"],
+        },
+        
+        petPetIconPetRankpng:{
+            path:"pet/petIcon/petRank",
+            type:cc.SpriteFrame,
+            list:["banjilasi","bobo","chaomeng","dakelaiyi","dudu","fengsugou","gaiouka","guladuo","houguai","huoyanniao","jiaherenwa","jiaojinyu","jiekeluomu","jielaaola","jienigui","kalakala","labaya","laixilamu","leijiluoke","liekongzuo","lvmaochong","menghuan","miaowazhongzi","niduolan","penhuolongX","pikaqui","qiuleimu","Sguladuo","shuijiangui","wanli","xiaohuolong","xiaolada","xiaomuling","xiaoquanshi","zheerniyasi","zoulucao"],
+        },
+        
+        petPetIconPetSpeedpng:{
+            path:"pet/petIcon/petSpeed",
+            type:cc.SpriteFrame,
+            list:["banjilasi","bobo","chaomeng","dakelaiyi","dudu","fengsugou","gaiouka","guladuo","houguai","huoyanniao","jiaherenwa","jiaojinyu","jiekeluomu","jielaaola","jienigui","kalakala","labaya","laixilamu","leijiluoke","liekongzuo","lvmaochong","menghuan","miaowazhongzi","niduolan","penhuolongX","pikaqui","qiuleimu","Sguladuo","shuijiangui","wanli","xiaohuolong","xiaolada","xiaomuling","xiaoquanshi","zheerniyasi","zoulucao"],
+        },
+        
+}

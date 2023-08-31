@@ -1,0 +1,97 @@
+
+yezi.png
+size: 1324,604
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dian_shu1
+  rotate: true
+  xy: 762, 106
+  size: 90, 169
+  orig: 192, 404
+  offset: 0, 235
+  index: -1
+guangmanbg
+  rotate: true
+  xy: 2, 3
+  size: 599, 601
+  orig: 700, 700
+  offset: 51, 49
+  index: -1
+guozi
+  rotate: false
+  xy: 1244, 472
+  size: 78, 130
+  orig: 78, 130
+  offset: 0, 0
+  index: -1
+hou_shuye1
+  rotate: false
+  xy: 605, 69
+  size: 155, 127
+  orig: 155, 127
+  offset: 0, 0
+  index: -1
+q_cao1
+  rotate: false
+  xy: 1129, 30
+  size: 182, 135
+  orig: 182, 135
+  offset: 0, 0
+  index: -1
+q_cao2
+  rotate: false
+  xy: 605, 2
+  size: 109, 65
+  orig: 109, 65
+  offset: 0, 0
+  index: -1
+q_cao3
+  rotate: false
+  xy: 1129, 167
+  size: 149, 198
+  orig: 149, 198
+  offset: 0, 0
+  index: -1
+q_cao3_2
+  rotate: true
+  xy: 933, 115
+  size: 81, 89
+  orig: 81, 89
+  offset: 0, 0
+  index: -1
+q_cao4
+  rotate: true
+  xy: 1034, 367
+  size: 235, 208
+  orig: 235, 208
+  offset: 0, 0
+  index: -1
+qian_shu1
+  rotate: false
+  xy: 1034, 101
+  size: 93, 264
+  orig: 93, 264
+  offset: 0, 0
+  index: -1
+xiaoye1
+  rotate: false
+  xy: 1026, 18
+  size: 88, 81
+  orig: 88, 81
+  offset: 0, 0
+  index: -1
+ye1
+  rotate: true
+  xy: 605, 198
+  size: 404, 427
+  orig: 404, 427
+  offset: 0, 0
+  index: -1
+ye2
+  rotate: true
+  xy: 762, 7
+  size: 92, 262
+  orig: 92, 262
+  offset: 0, 0
+  index: -1

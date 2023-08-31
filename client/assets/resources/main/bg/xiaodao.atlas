@@ -1,0 +1,181 @@
+
+xiaodao.png
+size: 930,157
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dao
+  rotate: false
+  xy: 2, 8
+  size: 360, 147
+  orig: 361, 147
+  offset: 1, 0
+  index: -1
+dao_b
+  rotate: false
+  xy: 364, 23
+  size: 360, 132
+  orig: 361, 147
+  offset: 1, 0
+  index: -1
+h_qiu
+  rotate: true
+  xy: 653, 11
+  size: 10, 24
+  orig: 10, 24
+  offset: 0, 0
+  index: -1
+huangqiu
+  rotate: true
+  xy: 726, 15
+  size: 39, 37
+  orig: 41, 37
+  offset: 2, 0
+  index: -1
+motianlun
+  rotate: true
+  xy: 844, 89
+  size: 66, 84
+  orig: 66, 93
+  offset: 0, 1
+  index: -1
+motianlun1
+  rotate: false
+  xy: 608, 6
+  size: 13, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+motianlun1_b
+  rotate: true
+  xy: 406, 2
+  size: 19, 15
+  orig: 21, 16
+  offset: 1, 0
+  index: -1
+motianlun2
+  rotate: true
+  xy: 623, 7
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+motianlun2_b
+  rotate: true
+  xy: 423, 2
+  size: 19, 15
+  orig: 21, 17
+  offset: 1, 1
+  index: -1
+motianlun3
+  rotate: true
+  xy: 638, 7
+  size: 14, 13
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+motianlun3_b
+  rotate: true
+  xy: 539, 4
+  size: 17, 14
+  orig: 19, 16
+  offset: 1, 1
+  index: -1
+motianlun4
+  rotate: false
+  xy: 592, 5
+  size: 14, 16
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+motianlun4_b
+  rotate: true
+  xy: 505, 4
+  size: 17, 16
+  orig: 19, 16
+  offset: 1, 0
+  index: -1
+motianlun5
+  rotate: false
+  xy: 464, 4
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+motianlun5_b
+  rotate: false
+  xy: 440, 4
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+motianlun6
+  rotate: true
+  xy: 570, 5
+  size: 16, 20
+  orig: 16, 22
+  offset: 0, 2
+  index: -1
+motianlun6_b
+  rotate: true
+  xy: 364, 2
+  size: 19, 20
+  orig: 20, 22
+  offset: 1, 2
+  index: -1
+motianlun7
+  rotate: false
+  xy: 523, 4
+  size: 14, 17
+  orig: 46, 36
+  offset: 18, 0
+  index: -1
+motianlun7_b
+  rotate: true
+  xy: 386, 2
+  size: 19, 18
+  orig: 46, 38
+  offset: 16, 1
+  index: -1
+motianlun8
+  rotate: false
+  xy: 555, 4
+  size: 13, 17
+  orig: 13, 22
+  offset: 0, 1
+  index: -1
+motianlun8_b
+  rotate: false
+  xy: 486, 4
+  size: 17, 17
+  orig: 19, 22
+  offset: 1, 1
+  index: -1
+motianlun_b
+  rotate: false
+  xy: 844, 3
+  size: 66, 84
+  orig: 66, 93
+  offset: 0, 1
+  index: -1
+qiqiu
+  rotate: false
+  xy: 726, 56
+  size: 68, 99
+  orig: 69, 99
+  offset: 0, 0
+  index: -1
+quan1
+  rotate: false
+  xy: 765, 19
+  size: 77, 35
+  orig: 77, 35
+  offset: 0, 0
+  index: -1
+quan2
+  rotate: true
+  xy: 796, 75
+  size: 80, 28
+  orig: 80, 28
+  offset: 0, 0
+  index: -1

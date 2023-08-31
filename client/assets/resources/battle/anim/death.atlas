@@ -1,0 +1,76 @@
+
+death.png
+size: 276,807
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00004
+  rotate: true
+  xy: 147, 165
+  size: 109, 122
+  orig: 160, 160
+  offset: 26, 17
+  index: -1
+1_00005
+  rotate: false
+  xy: 147, 276
+  size: 127, 137
+  orig: 160, 160
+  offset: 16, 8
+  index: -1
+1_00006
+  rotate: false
+  xy: 2, 135
+  size: 135, 133
+  orig: 160, 160
+  offset: 11, 12
+  index: -1
+1_00007
+  rotate: false
+  xy: 139, 30
+  size: 135, 133
+  orig: 160, 160
+  offset: 11, 12
+  index: -1
+1_00008
+  rotate: false
+  xy: 2, 2
+  size: 133, 131
+  orig: 160, 160
+  offset: 12, 13
+  index: -1
+gzhu_1
+  rotate: true
+  xy: 230, 623
+  size: 182, 40
+  orig: 186, 53
+  offset: 4, 5
+  index: -1
+lan_gq
+  rotate: false
+  xy: 2, 579
+  size: 226, 226
+  orig: 226, 226
+  offset: 0, 0
+  index: -1
+liubianxing
+  rotate: false
+  xy: 2, 270
+  size: 143, 143
+  orig: 149, 149
+  offset: 3, 3
+  index: -1
+sk_6_1
+  rotate: false
+  xy: 230, 578
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+skill1_quan_ADD
+  rotate: false
+  xy: 2, 415
+  size: 179, 162
+  orig: 179, 162
+  offset: 0, 0
+  index: -1

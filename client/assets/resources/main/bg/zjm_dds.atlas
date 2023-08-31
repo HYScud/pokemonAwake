@@ -1,0 +1,90 @@
+
+zjm_dds.png
+size: 221,78
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dd_1
+  rotate: false
+  xy: 101, 6
+  size: 46, 18
+  orig: 46, 20
+  offset: 0, 2
+  index: -1
+dd_10
+  rotate: false
+  xy: 102, 30
+  size: 99, 46
+  orig: 100, 46
+  offset: 0, 0
+  index: -1
+dd_11
+  rotate: true
+  xy: 2, 7
+  size: 69, 59
+  orig: 70, 59
+  offset: 1, 0
+  index: -1
+dd_2
+  rotate: true
+  xy: 203, 20
+  size: 41, 15
+  orig: 41, 15
+  offset: 0, 0
+  index: -1
+dd_3
+  rotate: false
+  xy: 63, 3
+  size: 36, 21
+  orig: 36, 21
+  offset: 0, 0
+  index: -1
+dd_4
+  rotate: false
+  xy: 7, 2
+  size: 2, 3
+  orig: 2, 3
+  offset: 0, 0
+  index: -1
+dd_5
+  rotate: false
+  xy: 203, 63
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+dd_6
+  rotate: false
+  xy: 2, 2
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+dd_7
+  rotate: false
+  xy: 174, 6
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+dd_8
+  rotate: true
+  xy: 63, 26
+  size: 50, 37
+  orig: 50, 37
+  offset: 0, 0
+  index: -1
+dd_9
+  rotate: true
+  xy: 149, 3
+  size: 25, 23
+  orig: 26, 23
+  offset: 1, 0
+  index: -1
+yinying
+  rotate: false
+  xy: 184, 8
+  size: 30, 10
+  orig: 30, 11
+  offset: 0, 0
+  index: -1

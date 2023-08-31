@@ -1,0 +1,48 @@
+
+wsj2_genggui.png
+size: 1125,443
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chonglangban
+  rotate: false
+  xy: 918, 20
+  size: 102, 135
+  orig: 102, 135
+  offset: 0, 0
+  index: -1
+chonglangbanbaitian
+  rotate: false
+  xy: 1022, 20
+  size: 101, 135
+  orig: 101, 135
+  offset: 0, 0
+  index: -1
+gengguirukou
+  rotate: false
+  xy: 2, 2
+  size: 456, 439
+  orig: 456, 439
+  offset: 0, 0
+  index: -1
+gengguirukouhei
+  rotate: false
+  xy: 460, 2
+  size: 456, 439
+  orig: 456, 439
+  offset: 0, 0
+  index: -1
+lubiaobai
+  rotate: true
+  xy: 918, 300
+  size: 141, 156
+  orig: 153, 156
+  offset: 12, 0
+  index: -1
+lubiaobaihei
+  rotate: true
+  xy: 918, 157
+  size: 141, 156
+  orig: 141, 156
+  offset: 0, 0
+  index: -1

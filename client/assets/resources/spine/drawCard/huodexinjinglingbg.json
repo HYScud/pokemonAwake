@@ -1,0 +1,436 @@
+{
+"skeleton": {
+	"hash": "/PcU67/sGrNSOd4rCoR6UyOHSM0",
+	"spine": "3.8.75",
+	"x": -902.79,
+	"y": -378.17,
+	"width": 1709.32,
+	"height": 765.25,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "All", "parent": "root", "x": -779.38, "y": -361.66 },
+	{ "name": "7", "parent": "All", "x": -74.22, "y": 889.09 },
+	{ "name": "BJ", "parent": "root", "transform": "onlyTranslation" },
+	{ "name": "POKEMON", "parent": "All", "x": 731.72, "y": 523.2 },
+	{ "name": "POKEMON2", "parent": "All", "x": 731.72, "y": 523.2 },
+	{ "name": "baidi", "parent": "All", "x": 774.39, "y": 386.85, "scaleX": 2.0364, "scaleY": 85.0278 },
+	{ "name": "beiguang", "parent": "All", "x": -2.57, "y": 494.22 },
+	{ "name": "zhiwang", "parent": "All", "x": 779.38, "y": 361.66 },
+	{ "name": "dangegun", "parent": "zhiwang", "rotation": -157.93, "x": -677.79, "y": 164.9 },
+	{ "name": "dangegun2", "parent": "zhiwang", "rotation": 81.26, "x": -613.59, "y": 77.66, "scaleX": 0.4864 },
+	{
+		"name": "dangegun3",
+		"parent": "zhiwang",
+		"rotation": 121.68,
+		"x": -367.52,
+		"y": 109.76,
+		"scaleX": 1.0559,
+		"scaleY": 1.0527
+	},
+	{
+		"name": "dangegun4",
+		"parent": "zhiwang",
+		"rotation": 22.55,
+		"x": -303.32,
+		"y": 308.1,
+		"scaleX": 0.6968,
+		"scaleY": 1.0527
+	},
+	{
+		"name": "dangegun5",
+		"parent": "zhiwang",
+		"rotation": 41.11,
+		"x": -102.08,
+		"y": 20.76,
+		"scaleX": 0.7488,
+		"scaleY": 1.0527
+	},
+	{
+		"name": "dangegun6",
+		"parent": "zhiwang",
+		"rotation": 102.51,
+		"x": 36.3,
+		"y": 130.88,
+		"scaleX": 0.9845,
+		"scaleY": 1.0527
+	},
+	{
+		"name": "dangegun7",
+		"parent": "zhiwang",
+		"rotation": -174.48,
+		"x": 440.29,
+		"y": -58.84,
+		"scaleX": 1.5251,
+		"scaleY": 1.0527
+	},
+	{
+		"name": "dangegun8",
+		"parent": "zhiwang",
+		"rotation": -60.21,
+		"x": 281.08,
+		"y": 147.24,
+		"scaleX": 1.0535,
+		"scaleY": 1.0527
+	},
+	{
+		"name": "dangegun9",
+		"parent": "zhiwang",
+		"rotation": -144.69,
+		"x": 460.38,
+		"y": 259.59,
+		"scaleX": 0.8712,
+		"scaleY": 1.0527
+	},
+	{ "name": "diguang", "parent": "All", "rotation": -162.74, "x": 1554.01, "y": 295.22 },
+	{ "name": "shuguang", "parent": "All", "x": 655.54, "y": 436.11, "scaleY": 42.4213 }
+],
+"slots": [
+	{ "name": "baidi", "bone": "baidi", "attachment": "baidi" },
+	{ "name": "baidi2", "bone": "baidi", "attachment": "baidi" },
+	{ "name": "baidi3", "bone": "baidi", "attachment": "baidi" },
+	{ "name": "baidi4", "bone": "baidi", "attachment": "baidi" },
+	{ "name": "baidi5", "bone": "baidi", "attachment": "baidi" },
+	{ "name": "beiguang", "bone": "beiguang", "attachment": "beiguang" },
+	{ "name": "zhiwang", "bone": "7", "color": "ffffff00" },
+	{ "name": "dangegun", "bone": "dangegun", "color": "f5efdbff", "attachment": "dangegun" },
+	{ "name": "dangegun2", "bone": "dangegun2", "color": "f5efdbff", "attachment": "dangegun" },
+	{ "name": "dangegun3", "bone": "dangegun3", "color": "f5e5c6ff", "attachment": "dangegun" },
+	{ "name": "dangegun4", "bone": "dangegun4", "color": "f5eaceff", "attachment": "dangegun" },
+	{ "name": "dangegun5", "bone": "dangegun5", "color": "f5e9cdff", "attachment": "dangegun" },
+	{ "name": "dangegun6", "bone": "dangegun6", "color": "ffdac5ff", "attachment": "dangegun" },
+	{ "name": "dangegun7", "bone": "dangegun7", "color": "ffdac5ff", "attachment": "dangegun" },
+	{ "name": "dangegun8", "bone": "dangegun8", "color": "ffd6bfff", "attachment": "dangegun" },
+	{ "name": "dangegun9", "bone": "dangegun9", "color": "ffd2bbff", "attachment": "dangegun" },
+	{ "name": "POKEMON2", "bone": "POKEMON2", "attachment": "POKEMON" },
+	{ "name": "diguang", "bone": "diguang", "attachment": "diguang" },
+	{ "name": "shuguang", "bone": "shuguang", "attachment": "shuguang" },
+	{ "name": "POKEMON", "bone": "POKEMON", "attachment": "POKEMON" },
+	{ "name": "BJ/anquankuang", "bone": "BJ" },
+	{ "name": "BJ/lvmu", "bone": "BJ", "color": "ffffff55" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"baidi2": {
+				"baidi": { "x": 1.39, "y": -0.24, "width": 781, "height": 9 }
+			},
+			"baidi3": {
+				"baidi": { "x": 1.39, "y": -0.24, "width": 781, "height": 9 }
+			},
+			"baidi4": {
+				"baidi": { "x": 1.39, "y": -0.24, "width": 781, "height": 9 }
+			},
+			"baidi5": {
+				"baidi": { "x": 1.39, "y": -0.24, "width": 781, "height": 9 }
+			},
+			"diguang": {
+				"diguang": {
+					"type": "mesh",
+					"uvs": [ 1, 0.14513, 1, 1, 0.41073, 1, 0.31601, 1, 0.14519, 1, 0, 1, 0, 0.53206, 0, 0, 1, 0, 0.14394, 0.45548, 0.31644, 0.3637, 0.51468, 0.25822, 0.51274, 0.85202, 0.71786, 0.15012, 0.71423, 0.5597 ],
+					"triangles": [ 13, 7, 8, 0, 13, 8, 11, 7, 13, 10, 7, 11, 9, 7, 10, 6, 7, 9, 14, 11, 13, 14, 13, 0, 11, 14, 12, 11, 12, 10, 3, 9, 10, 6, 4, 5, 9, 4, 6, 4, 9, 3, 10, 12, 3, 2, 3, 12, 14, 0, 1, 12, 14, 1, 2, 12, 1 ],
+					"vertices": [ 1.47, 24.92, 81.88, 283.71, 959.73, 10.94, 1100.85, -32.91, 1355.33, -111.98, 1571.62, -179.19, 1527.6, -320.84, 1477.56, -481.91, -12.19, -19.02, 1305.97, -277.4, 1040.35, -225.33, 735.1, -165.5, 793.85, 13.36, 422.25, -104.18, 466.18, 18.14 ],
+					"hull": 9,
+					"edges": [ 0, 16, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16 ],
+					"width": 1560,
+					"height": 317
+				}
+			},
+			"baidi": {
+				"baidi": { "x": 1.39, "y": -0.24, "width": 781, "height": 9 }
+			},
+			"POKEMON2": {
+				"POKEMON": { "x": -3.22, "y": -54.65, "width": 91, "height": 473 }
+			},
+			"dangegun2": {
+				"dangegun": { "x": -0.01, "y": 2.84, "rotation": 90, "width": 17, "height": 481 }
+			},
+			"dangegun3": {
+				"dangegun": { "x": -0.01, "y": 2.84, "rotation": 90, "width": 17, "height": 481 }
+			},
+			"dangegun4": {
+				"dangegun": { "x": -0.01, "y": 2.84, "rotation": 90, "width": 17, "height": 481 }
+			},
+			"dangegun5": {
+				"dangegun": { "x": -0.01, "y": 2.84, "rotation": 90, "width": 17, "height": 481 }
+			},
+			"dangegun6": {
+				"dangegun": { "x": -0.01, "y": 2.84, "rotation": 90, "width": 17, "height": 481 }
+			},
+			"beiguang": {
+				"beiguang": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0.65458, 0, 0.14662, 0, 0, 0.31162, 0, 0.55791, 0, 0.78837, 0, 1, 0, 0.30585, 0.76023, 0.55973, 0.84793, 0.79004, 0.92748 ],
+					"triangles": [ 3, 4, 5, 9, 2, 3, 5, 9, 3, 10, 6, 7, 9, 5, 6, 10, 9, 6, 11, 7, 8, 10, 7, 11, 1, 2, 9, 11, 8, 0, 1, 9, 10, 11, 1, 10, 1, 11, 0 ],
+					"vertices": [ 1562.57, -370.23, 2.57, -370.23, 2.57, -164.36, 2.57, 138.39, 2.57, 225.77, 488.69, 225.77, 872.9, 225.77, 1232.43, 225.77, 1562.57, 225.77, 479.7, -227.32, 875.76, -279.59, 1235.04, -327 ],
+					"hull": 9,
+					"edges": [ 0, 16, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16 ],
+					"width": 1560,
+					"height": 596
+				}
+			},
+			"dangegun8": {
+				"dangegun": { "x": -0.01, "y": 2.84, "rotation": 90, "width": 17, "height": 481 }
+			},
+			"dangegun9": {
+				"dangegun": { "x": -0.01, "y": 2.84, "rotation": 90, "width": 17, "height": 481 }
+			},
+			"shuguang": {
+				"shuguang": { "x": 2.96, "y": -1.72, "width": 309, "height": 17 }
+			},
+			"dangegun7": {
+				"dangegun": { "x": -0.01, "y": 2.84, "rotation": 90, "width": 17, "height": 481 }
+			},
+			"dangegun": {
+				"dangegun": { "x": -0.01, "y": 2.84, "rotation": 90, "width": 17, "height": 481 }
+			},
+			"POKEMON": {
+				"POKEMON": { "x": -3.22, "y": -54.65, "width": 91, "height": 473 }
+			}
+		}
+	}
+],
+"animations": {
+	"effect": {
+		"slots": {
+			"baidi4": {
+				"color": [
+					{ "color": "b9c8ffff" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"baidi": {
+				"color": [
+					{ "color": "b9c8ffff" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"baidi3": {
+				"color": [
+					{ "color": "b9c8ffff" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"POKEMON": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffff00", "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.5333, "color": "ffffffc4", "curve": 0.501, "c3": 0.826 },
+					{ "time": 0.6667, "color": "ffffffff" }
+				]
+			},
+			"POKEMON2": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.5333, "color": "ffffffff" }
+				]
+			},
+			"baidi5": {
+				"color": [
+					{ "color": "f2f8ffff" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"beiguang": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"diguang": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667, "color": "ffffffff" }
+				]
+			},
+			"baidi2": {
+				"color": [
+					{ "color": "b9c8ffff" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"POKEMON": {
+				"translate": [
+					{ "y": 540.6, "curve": "stepped" },
+					{ "time": 0.2333, "y": 540.6, "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.5333, "y": -30.68, "curve": 0.501, "c3": 0.826 },
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{ "y": 0.054, "curve": "stepped" },
+					{ "time": 0.2333, "y": 0.054, "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.5333, "y": 0.889, "curve": 0.501, "c3": 0.826 },
+					{ "time": 0.6667 }
+				]
+			},
+			"POKEMON2": {
+				"translate": [
+					{ "y": 540.6, "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.5333, "y": -726.2 }
+				],
+				"scale": [
+					{ "y": 0.054, "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.5333 }
+				]
+			},
+			"dangegun3": {
+				"translate": [
+					{ "x": -278.68, "y": 464.57, "curve": "stepped" },
+					{ "time": 0.2333, "x": -278.68, "y": 464.57, "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.6, "x": -1.7 }
+				]
+			},
+			"shuguang": {
+				"translate": [
+					{ "y": 787.4, "curve": "stepped" },
+					{ "time": 0.1, "y": 787.4, "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.5333 }
+				],
+				"scale": [
+					{ "y": -0.03, "curve": "stepped" },
+					{ "time": 0.1, "y": -0.03, "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.5333 }
+				]
+			},
+			"dangegun9": {
+				"translate": [
+					{ "x": 302.16, "y": 220.33, "curve": "stepped" },
+					{ "time": 0.2333, "x": 302.16, "y": 220.33, "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.6 }
+				]
+			},
+			"dangegun8": {
+				"translate": [
+					{ "x": -236.69, "y": 426.8, "curve": "stepped" },
+					{ "time": 0.2333, "x": -236.69, "y": 426.8, "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.6 }
+				]
+			},
+			"dangegun7": {
+				"translate": [
+					{ "x": 693.71, "y": 57.91, "curve": "stepped" },
+					{ "time": 0.2333, "x": 693.71, "y": 57.91, "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.6 }
+				]
+			},
+			"dangegun6": {
+				"translate": [
+					{ "x": -100.72, "y": 457.02, "curve": "stepped" },
+					{ "time": 0.2333, "x": -100.72, "y": 457.02, "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.6 }
+				]
+			},
+			"dangegun5": {
+				"translate": [
+					{ "x": 547.66, "y": 467.09, "curve": "stepped" },
+					{ "time": 0.2333, "x": 547.66, "y": 467.09, "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.6 }
+				]
+			},
+			"dangegun4": {
+				"translate": [
+					{ "x": 271.94, "y": 117.09, "curve": "stepped" },
+					{ "time": 0.2333, "x": 271.94, "y": 117.09, "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.6 }
+				]
+			},
+			"dangegun2": {
+				"translate": [
+					{ "x": 75.54, "y": 446.94, "curve": "stepped" },
+					{ "time": 0.2333, "x": 75.54, "y": 446.94, "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.6 }
+				]
+			},
+			"dangegun": {
+				"translate": [
+					{ "x": -321.04, "y": -133.45, "curve": "stepped" },
+					{ "time": 0.2333, "x": -321.04, "y": -133.45, "curve": 0.25, "c3": 0.355, "c4": 0.99 },
+					{ "time": 0.6 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"beiguang": {
+					"beiguang": [
+						{
+							"vertices": [ -1557.89, 300.24484, -7.0E-5, 300.24484, -7.0E-5, 122.37524, -7.0E-5, 2.0E-5, -1.0E-5, 2.0E-5, -481.60513, 2.0E-5, -866.67896, 2.0E-5, -1227.0061, 2.0E-5, -1557.8901, 2.0E-5, -472.59494, 176.77708, -869.5383, 221.93503, -1229.6266, 262.9002 ],
+							"curve": "stepped"
+						},
+						{
+							"time": 0.1667,
+							"vertices": [ -1557.89, 300.24484, -7.0E-5, 300.24484, -7.0E-5, 122.37524, -7.0E-5, 2.0E-5, -1.0E-5, 2.0E-5, -481.60513, 2.0E-5, -866.67896, 2.0E-5, -1227.0061, 2.0E-5, -1557.8901, 2.0E-5, -472.59494, 176.77708, -869.5383, 221.93503, -1229.6266, 262.9002 ],
+							"curve": 0.25,
+							"c3": 0.355,
+							"c4": 0.99
+						},
+						{ "time": 0.5 }
+					]
+				},
+				"diguang": {
+					"diguang": [
+						{
+							"offset": 4,
+							"vertices": [ -922.3801, 111.1059, -1057.192, 154.34262, -1309.7557, 236.40363, -1523.5851, 304.31918, -1523.1322, 303.3156, -1441.0374, 370.7971, 6.0E-5, -4.0E-5, -1306.2451, 246.32852, -1047.9873, 190.14285, -744.97107, 130.26292, -756.1734, 103.85951, -439.115, 59.47778, -433.9004, 94.12431 ],
+							"curve": "stepped"
+						},
+						{
+							"time": 0.0333,
+							"offset": 4,
+							"vertices": [ -922.3801, 111.1059, -1057.192, 154.34262, -1309.7557, 236.40363, -1523.5851, 304.31918, -1523.1322, 303.3156, -1441.0374, 370.7971, 6.0E-5, -4.0E-5, -1306.2451, 246.32852, -1047.9873, 190.14285, -744.97107, 130.26292, -756.1734, 103.85951, -439.115, 59.47778, -433.9004, 94.12431 ],
+							"curve": 0.25,
+							"c3": 0.355,
+							"c4": 0.99
+						},
+						{ "time": 0.3667 }
+					]
+				}
+			}
+		}
+	},
+	"effect_loop": {
+		"slots": {
+			"POKEMON2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"POKEMON2": {
+				"translate": [
+					{ "y": 540.6 }
+				],
+				"scale": [
+					{ "y": 0.054 }
+				]
+			},
+			"dangegun3": {
+				"translate": [
+					{ "x": -1.7 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"beiguang": {
+					"beiguang": [
+						{}
+					]
+				},
+				"diguang": {
+					"diguang": [
+						{}
+					]
+				}
+			}
+		}
+	}
+}
+}

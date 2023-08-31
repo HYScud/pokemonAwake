@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "ejsexcel": "^4.1.6",
+    "express": "^4.18.2",
+    "express-ws": "^5.0.2",
+    "nodemailer": "^6.9.4",
+    "redis": "^3.1.2"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "server"
+}

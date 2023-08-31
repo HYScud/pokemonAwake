@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "80ce3715-76ca-453b-83a8-ce0115a649dc",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1985,
+  "height": 1190,
+  "platformSettings": {},
+  "subMetas": {
+    "Sguladuo": {
+      "ver": "1.0.4",
+      "uuid": "5ec8c346-0f60-4fe1-b480-209b468055c0",
+      "rawTextureUuid": "80ce3715-76ca-453b-83a8-ce0115a649dc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1981,
+      "height": 1186,
+      "rawWidth": 1985,
+      "rawHeight": 1190,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

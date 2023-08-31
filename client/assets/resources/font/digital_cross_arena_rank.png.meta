@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "24f83417-509c-42bb-915f-e27fff494fa7",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 740,
+  "height": 94,
+  "platformSettings": {},
+  "subMetas": {
+    "digital_cross_arena_rank": {
+      "ver": "1.0.4",
+      "uuid": "d62e6444-1034-4097-b847-ea4ad565cea8",
+      "rawTextureUuid": "24f83417-509c-42bb-915f-e27fff494fa7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 0,
+      "width": 736,
+      "height": 94,
+      "rawWidth": 740,
+      "rawHeight": 94,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

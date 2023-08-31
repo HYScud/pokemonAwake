@@ -1,0 +1,54 @@
+{
+"skeleton": {
+	"hash": "+RPLlh3jK5o4LDLJq49i8INKEeA",
+	"spine": "3.8.75",
+	"x": 890.81,
+	"y": -153.47,
+	"width": 661.61,
+	"height": 445.22,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "chonglangban", "parent": "root", "x": 1489.09, "y": -7.73 },
+	{ "name": "gengguirukou", "parent": "root", "x": 1249.06, "y": 103.53 },
+	{ "name": "kanbianhei", "parent": "root", "x": 967.28, "y": -0.65 }
+],
+"slots": [
+	{ "name": "gengguirukou", "bone": "gengguirukou", "attachment": "gengguirukou" },
+	{ "name": "lubiaobai", "bone": "root", "attachment": "lubiaobai" },
+	{ "name": "chonglangban", "bone": "chonglangban", "attachment": "chonglangban" },
+	{ "name": "gengguirukouhei", "bone": "gengguirukou", "attachment": "gengguirukouhei" },
+	{ "name": "chonglangban2", "bone": "chonglangban", "attachment": "chonglangbanbaitian" },
+	{ "name": "kanbianhei", "bone": "kanbianhei", "attachment": "lubiaobaihei" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"kanbianhei": {
+				"lubiaobaihei": { "x": 6.63, "y": -42.28, "width": 141, "height": 156 }
+			},
+			"lubiaobai": {
+				"lubiaobai": { "x": 967.31, "y": -42.78, "width": 153, "height": 156 }
+			},
+			"chonglangban2": {
+				"chonglangbanbaitian": { "x": 11.65, "y": 14.78, "width": 101, "height": 135 }
+			},
+			"chonglangban": {
+				"chonglangban": { "x": 12.33, "y": 14.78, "width": 102, "height": 135 }
+			},
+			"gengguirukouhei": {
+				"gengguirukouhei": { "x": 20.27, "y": -34.39, "scaleY": 1.0142, "width": 456, "height": 439 }
+			},
+			"gengguirukou": {
+				"gengguirukou": { "x": 21.17, "y": -35.71, "width": 456, "height": 439 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {}
+}
+}

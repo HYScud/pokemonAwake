@@ -1,0 +1,48 @@
+
+huodexinjinglingbg.png
+size: 1687,919
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+POKEMON
+  rotate: false
+  xy: 1575, 444
+  size: 91, 473
+  orig: 91, 473
+  offset: 0, 0
+  index: -1
+baidi
+  rotate: true
+  xy: 1564, 136
+  size: 781, 9
+  orig: 781, 9
+  offset: 0, 0
+  index: -1
+beiguang
+  rotate: false
+  xy: 2, 321
+  size: 1560, 596
+  orig: 1560, 596
+  offset: 0, 0
+  index: -1
+dangegun
+  rotate: false
+  xy: 1668, 436
+  size: 17, 481
+  orig: 17, 481
+  offset: 0, 0
+  index: -1
+diguang
+  rotate: false
+  xy: 2, 2
+  size: 1560, 317
+  orig: 1560, 317
+  offset: 0, 0
+  index: -1
+shuguang
+  rotate: true
+  xy: 1575, 133
+  size: 309, 17
+  orig: 309, 17
+  offset: 0, 0
+  index: -1

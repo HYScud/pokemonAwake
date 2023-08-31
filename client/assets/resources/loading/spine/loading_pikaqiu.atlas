@@ -1,0 +1,153 @@
+
+loading_pikaqiu.png
+size: 187,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ganzi_02
+  rotate: true
+  xy: 2, 61
+  size: 79, 59
+  orig: 79, 59
+  offset: 0, 0
+  index: -1
+jng_datui
+  rotate: false
+  xy: 118, 21
+  size: 21, 29
+  orig: 21, 29
+  offset: 0, 0
+  index: -1
+jng_guike
+  rotate: true
+  xy: 145, 104
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: -1
+jng_jiao
+  rotate: true
+  xy: 95, 3
+  size: 12, 21
+  orig: 12, 21
+  offset: 0, 0
+  index: -1
+jng_shenti
+  rotate: false
+  xy: 104, 97
+  size: 39, 43
+  orig: 39, 43
+  offset: 0, 0
+  index: -1
+jng_tou
+  rotate: true
+  xy: 145, 65
+  size: 37, 39
+  orig: 37, 39
+  offset: 0, 0
+  index: -1
+jng_weiba
+  rotate: false
+  xy: 63, 63
+  size: 41, 29
+  orig: 41, 29
+  offset: 0, 0
+  index: -1
+jng_y_shou
+  rotate: true
+  xy: 118, 3
+  size: 16, 21
+  orig: 16, 21
+  offset: 0, 0
+  index: -1
+jng_yanjing
+  rotate: true
+  xy: 46, 3
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+jng_z_shou
+  rotate: true
+  xy: 95, 17
+  size: 33, 21
+  orig: 33, 21
+  offset: 0, 0
+  index: -1
+pkq_erduo
+  rotate: false
+  xy: 145, 52
+  size: 37, 11
+  orig: 37, 11
+  offset: 0, 0
+  index: -1
+pkq_lianjia
+  rotate: false
+  xy: 171, 40
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+pkq_shenti
+  rotate: false
+  xy: 46, 12
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+pkq_shou
+  rotate: false
+  xy: 141, 23
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+pkq_tou
+  rotate: true
+  xy: 63, 94
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: -1
+pkq_weiba
+  rotate: true
+  xy: 2, 6
+  size: 53, 42
+  orig: 53, 42
+  offset: 0, 0
+  index: -1
+pkq_y_jiao
+  rotate: false
+  xy: 58, 4
+  size: 16, 6
+  orig: 16, 6
+  offset: 0, 0
+  index: -1
+pkq_y_tui
+  rotate: true
+  xy: 141, 2
+  size: 19, 16
+  orig: 19, 16
+  offset: 0, 0
+  index: -1
+pkq_yanjing
+  rotate: true
+  xy: 76, 6
+  size: 4, 10
+  orig: 4, 10
+  offset: 0, 0
+  index: -1
+pkq_z_jiao
+  rotate: false
+  xy: 159, 3
+  size: 10, 18
+  orig: 10, 18
+  offset: 0, 0
+  index: -1
+xiangzi
+  rotate: true
+  xy: 106, 52
+  size: 43, 37
+  orig: 43, 37
+  offset: 0, 0
+  index: -1
